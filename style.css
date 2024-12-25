@@ -1,0 +1,55 @@
+.tic {
+  
+  display: flex;
+  width: 104px;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+  
+  
+}
+
+.row {
+  
+  display: flex;
+  
+}
+
+
+.item {
+  
+  padding: 20px;
+  width: 30px;
+  height: 30px;
+  
+  
+  
+}
+
+
+
+.first > .item, .second > .item {
+  
+  
+  border-bottom: solid black 2px;
+  
+}
+
+.lineone, .linetwo {
+  
+  border-right: solid black 2px;
+  
+  
+}
+
+.game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  
+}
+
+
+
+
